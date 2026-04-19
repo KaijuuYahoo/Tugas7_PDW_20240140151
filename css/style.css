@@ -28,16 +28,10 @@ h2 {
     background: #4a90e2;
     border: none;
     border-radius: 8px;
-    padding: 12px 24px;
+    padding: 0;
     margin: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
-}
-
-.Pendaftaran:hover {
-    background: #357abd;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(74, 144, 226, 0.4);
 }
 
 .Pendaftaran a {
@@ -46,5 +40,11 @@ h2 {
     font-size: 16px;
     font-weight: 600;
     display: block;
-    /* makes the whole button area clickable */
+    padding: 12px 24px;
+}
+
+.Pendaftaran:hover {
+    background: #357abd;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(74, 144, 226, 0.4);
 }
