@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="..\css\form.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Form Calon Budak Korporat</legend>
+            <p>Nama Lengkap : <input type="text" name="Nama"></p>
+            <p>Alamat : <input type="text" name="Alamat"></p>
+            <p>Password : <input type="text" name="Password"></p>
+
+            <p>
+                Gender : 
+                <input type="radio" name="gender" id="male" value="Laki-laki">
+                <label for="male">Man</label>
+                
+                <input type="radio" name="gender" id="female" value="Perempuan">
+                <label for="female">Woman</label>
+
+                <input type="radio" name="gender" id="non-binary" value="Non-biner">
+                <label for="non-binary">Non-binary</label>
+
+                <input type="radio" name="gender" id="other" value="Lainnya">
+                <label for="other">Lainnya</label>
+            </p>
+
+            <p>
+                <p>
+                    Your Skill Programming : <br>
+                    
+                    <input type="checkbox" name="skill[]" id="cpp" value="C++">
+                    <label for="cpp">C++</label>
+
+                    <input type="checkbox" name="skill[]" id="python" value="Python">
+                    <label for="python">Python</label>
+
+                    <input type="checkbox" name="skill[]" id="sql" value="SQL Server">
+                    <label for="sql">SQL Server</label>
+
+                    <input type="checkbox" name="skill[]" id="js" value="JavaScript">
+                    <label for="js">JavaScript</label>
+                    
+                    <input type="checkbox" name="skill[]" id="php" value="PHP">
+                    <label for="php">PHP</label>
+                </p>
+            </p>
+
+            <p>
+                 Your City : 
+                    <select name="city" id="city">
+                        <option value="">-- Select City in Thailand --</option>
+                        <option value="Bangkok">Bangkok</option>
+                        <option value="Nonthaburi">Nonthaburi</option>
+                        <option value="Nakhon Ratchasima">Nakhon Ratchasima</option>
+                        <option value="Chiang Mai">Chiang Mai</option>
+                        <option value="Phuket">Phuket</option>
+                        <option value="Hat Yai">Hat Yai</option>
+                        <option value="Pattaya">Pattaya</option>
+                        <option value="Surat Thani">Surat Thani</option>
+                        <option value="Udon Thani">Udon Thani</option>
+                        <option value="Khon Kaen">Khon Kaen</option>
+                    </select>
+                </p>
+                </select>
+            </p>
+        </fieldset>
+    </form>
+
+    <button>
+        <a href="index.html">
+            Back
+        </a>
+    </button>
+</body>
+</html>
